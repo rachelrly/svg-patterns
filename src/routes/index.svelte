@@ -16,10 +16,13 @@
 </svelte:head>
 
 <main
-  class="flex flex-col items-center min-h-screen w-screen h-screen bg-{current.name}"
+  class="flex flex-col items-center min-h-screen w-screen h-screen bg-{current.name} font-extralight"
 >
   <h1
-    class="flex justify-center text-2xl py-4 px-2 w-full bg-white bg-opacity-10"
+    class="flex justify-center text-3xl py-4 px-2 w-full {current?.text ===
+    'light'
+      ? 'text-white'
+      : 'text-black'}"
   >
     Rly SVG Patterns
   </h1>
