@@ -2,13 +2,32 @@ import type { PatternType } from '../types'
 
 export const PATTERNS: readonly PatternType[] = [
   {
+    name: 'dots',
+    text: 'dark'
+  },
+
+  {
     name: 'ring',
-    title: 'Blue Rings',
-    url: '../svg/ring.svg'
+    text: 'dark'
   },
   {
-    name: 'next',
-    title: 'Working on this one now',
-    url: '../svg/ring.svg'
+    name: 'calico',
+    text: 'dark'
+  },
+  {
+    name: 'velvet',
+    text: 'light'
+  },
+  {
+    name: 'stitch',
+    text: 'dark'
+  },
+  {
+    name: 'blue',
+    text: 'light'
+  },
+  {
+    name: 'example',
+    text: 'dark'
   }
 ] as const

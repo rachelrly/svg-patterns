@@ -5,7 +5,13 @@ module.exports = {
     extend: {
       backgroundImage: {
         ring: "url('/src/svg/ring.svg')",
-        next: "url('/src/svg/other.svg')"
+        velvet: "url('/src/svg/velvet.svg')",
+        stitch: "url('/src/svg/stitch.svg')",
+        calico: "url('/src/svg/calico.svg')",
+        example: "url('/src/svg/example.svg')",
+        dots: "url('/src/svg/dots.svg')",
+        blue: "url('/src/svg/blue.svg')",
+        current: "url('/src/svg/current.svg')"
       }
     }
   }
