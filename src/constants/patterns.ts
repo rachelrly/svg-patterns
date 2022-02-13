@@ -1,10 +1,10 @@
 import type { PatternType } from '../types'
 
 export const PATTERNS: readonly PatternType[] = [
-  // {
-  //   name: 'current',
-  //   text: 'dark'
-  // },
+  {
+    name: 'dots',
+    text: 'dark'
+  },
   {
     name: 'ring',
     text: 'dark'
