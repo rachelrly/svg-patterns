@@ -6,7 +6,9 @@
   export let selectPattern: (pattern: PatternType) => void
 </script>
 
-<ul class="w-full h-full flex flex-row flex justify-center items-center">
+<ul
+  class="w-full h-full flex flex-row flex-wrap flex justify-center items-center overflow-hidden"
+>
   {#each PATTERNS as pattern}
     <Sample {pattern} {selectPattern} />
   {/each}
