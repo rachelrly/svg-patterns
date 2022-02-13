@@ -13,3 +13,11 @@ This repo contains a Svelte app to display the patterns. The svg patterns themse
 ### Velvet
 
 ![](/src/svg/velvet.svg)
+
+### Calico
+
+![](/src/svg/calico.svg)
+
+### Stitch
+
+![](/src/svg/stitch.svg)
