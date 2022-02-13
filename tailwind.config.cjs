@@ -10,6 +10,7 @@ module.exports = {
         calico: "url('/src/svg/calico.svg')",
         example: "url('/src/svg/example.svg')",
         dots: "url('/src/svg/dots.svg')",
+        blue: "url('/src/svg/blue.svg')",
         current: "url('/src/svg/current.svg')"
       }
     }

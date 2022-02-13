@@ -5,6 +5,7 @@ export const PATTERNS: readonly PatternType[] = [
     name: 'dots',
     text: 'dark'
   },
+
   {
     name: 'ring',
     text: 'dark'
@@ -20,6 +21,10 @@ export const PATTERNS: readonly PatternType[] = [
   {
     name: 'stitch',
     text: 'dark'
+  },
+  {
+    name: 'blue',
+    text: 'light'
   },
   {
     name: 'example',
