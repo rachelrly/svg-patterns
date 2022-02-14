@@ -11,6 +11,7 @@ module.exports = {
         example: "url('/src/svg/example.svg')",
         dots: "url('/src/svg/dots.svg')",
         blue: "url('/src/svg/blue.svg')",
+        tile: "url('/src/svg/tile.svg')",
         current: "url('/src/svg/current.svg')"
       }
     }
