@@ -7,7 +7,7 @@
 </script>
 
 <ul
-  class="w-full h-full flex flex-row flex-wrap flex justify-center items-center overflow-hidden"
+  class="w-full h-full p-2 flex flex-row flex-wrap flex justify-center overflow-hidden max-w-[1000px] lg:px-4"
 >
   {#each PATTERNS as pattern}
     <Sample {pattern} {selectPattern} />
