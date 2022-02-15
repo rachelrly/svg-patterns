@@ -2,11 +2,11 @@ import type { PatternType } from '../types'
 
 export const PATTERNS: readonly PatternType[] = [
   {
-    name: 'current',
-    text: 'light'
+    name: 'tile',
+    text: 'dark'
   },
   {
-    name: 'tile',
+    name: 'stitch',
     text: 'dark'
   },
   {
@@ -26,10 +26,7 @@ export const PATTERNS: readonly PatternType[] = [
     name: 'velvet',
     text: 'light'
   },
-  {
-    name: 'stitch',
-    text: 'dark'
-  },
+
   {
     name: 'blue',
     text: 'light'
